@@ -24,8 +24,8 @@ These modules were copied byte for byte from CoinEasy's current reader-upgrade s
 
 The two September 15 public X URLs demonstrate the broader production product. They are intentionally separate from the synthetic example. There are no usage, reach, conversion or revenue counters in the demo. The fixture's positive streak is a deterministic example, not an actual market observation.
 
-No production log, customer identifier, deployment identifier, private receipt, partner-chat image, account email, API key or credential is included. No third-party brand asset or font is embedded. The project name is text, and the orange “c” is a simple CSS/text mark.
+No production log, customer identifier, deployment identifier, private receipt, partner-chat image, account email, API key or credential is included. The legacy root viewer embeds no brand image or font: its name is text and its orange “c” is a simple CSS/text mark. The branded `research/` viewer separately bundles CoinEasy wordmark/character art and existing generated pixel-art scenes. It renders Nansen attribution as text and identifies NORI as a CoinEasy character concept, not an official Nansen mascot. See `research/assets/brand-manifest.json` for asset hashes.
 
 ## Release status
 
-This standalone source release is separate from the competition submission. No permissive open-source license is granted. Live snapshots and local receipts are excluded; the generated default dataset is entirely synthetic.
+This standalone source release is separate from the competition submission. No permissive open-source license is granted. The legacy root viewer uses a synthetic default dataset. The new `research/` walkthrough separately includes one explicitly reviewed, normalized manual API observation in `research/demo-data.json` and a clearly labelled fictional example in `research/demo-data.fixture.json`. Other local API outputs and private receipts remain excluded. See `research/provenance.json` for exact production module/helper hashes.

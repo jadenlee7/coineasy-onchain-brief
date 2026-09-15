@@ -1,0 +1,256 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "source": "nansen_digest/research_token.py",
+      "output": "nansen_digest/research_token.py",
+      "sha256": "aa23057993f940edf0b56299ae5b5a9fc5263e1f4e0e5861223113d16fbb597c",
+      "mode": "exact_copy"
+    },
+    {
+      "source": "nansen_digest/research_korea.py",
+      "output": "nansen_digest/research_korea.py",
+      "sha256": "62f9d89da1ffedad0c2d2fd51f34e8e9f2529c5e927fee28bd1d5ee77462ea64",
+      "mode": "exact_copy"
+    },
+    {
+      "source": "nansen_digest/research_changes.py",
+      "output": "nansen_digest/research_changes.py",
+      "sha256": "bb7965296d6e153e206a56072571d363ccd9a94bf2ac226329d7de37275680a8",
+      "mode": "exact_copy"
+    },
+    {
+      "source": "nansen_digest/token_analysis.py",
+      "symbol": "API_BASE",
+      "source_lines": [
+        26,
+        26
+      ],
+      "sha256": "e6734a55529b8d907d203008ea29bb3fe505d4ad7f66a1811201a2832d0a8c3b",
+      "mode": "exact_ast_node"
+    },
+    {
+      "source": "nansen_digest/token_analysis.py",
+      "symbol": "KST",
+      "source_lines": [
+        27,
+        27
+      ],
+      "sha256": "b6d8cc5d7cbea76d106a57dd4c59d1ec96567cc5b3f37bf90878f87abbf28874",
+      "mode": "exact_ast_node"
+    },
+    {
+      "source": "nansen_digest/token_analysis.py",
+      "symbol": "CACHE_TTL",
+      "source_lines": [
+        28,
+        28
+      ],
+      "sha256": "2a866a5e9d72157af0ef5895b8e9852ab475f2a6f350859742673261e10c0a8c",
+      "mode": "exact_ast_node"
+    },
+    {
+      "source": "nansen_digest/token_analysis.py",
+      "symbol": "_BASE",
+      "source_lines": [
+        34,
+        34
+      ],
+      "sha256": "169dd90ffedaa8a847ec4cdb3929db5d8ee1622f5bc5321e6e0c339803fe3e28",
+      "mode": "exact_ast_node"
+    },
+    {
+      "source": "nansen_digest/token_analysis.py",
+      "symbol": "_SOLANA",
+      "source_lines": [
+        35,
+        35
+      ],
+      "sha256": "c94610a4fc19252eb162bd9b4bc2fbf03ec5985be0cbab278a878a899eb215d6",
+      "mode": "exact_ast_node"
+    },
+    {
+      "source": "nansen_digest/token_analysis.py",
+      "symbol": "_B58",
+      "source_lines": [
+        36,
+        36
+      ],
+      "sha256": "33dea38632c69a0bb11c274958edc292e423041e5486537d8fd0a55d368fda86",
+      "mode": "exact_ast_node"
+    },
+    {
+      "source": "nansen_digest/token_analysis.py",
+      "symbol": "TokenQuery",
+      "source_lines": [
+        68,
+        71
+      ],
+      "sha256": "c9cef0c80eab66657cf796c502740d32952a5f81c14bc36edb72ee20596b218a",
+      "mode": "exact_ast_node"
+    },
+    {
+      "source": "nansen_digest/token_analysis.py",
+      "symbol": "_valid_address",
+      "source_lines": [
+        74,
+        87
+      ],
+      "sha256": "1e4d0fe560da17165c804739f0850bbf9f83188ea9e022d193dd4b308c464819",
+      "mode": "exact_ast_node"
+    },
+    {
+      "source": "nansen_digest/token_analysis.py",
+      "symbol": "_number",
+      "source_lines": [
+        112,
+        121
+      ],
+      "sha256": "6c2625f3c425c1c77f2ce1eed11c1e0fe7b6f24b4ca5efb4a0dd3590a99a9b6e",
+      "mode": "exact_ast_node"
+    },
+    {
+      "source": "nansen_digest/token_analysis.py",
+      "symbol": "_count",
+      "source_lines": [
+        124,
+        128
+      ],
+      "sha256": "5a4a65843df7290ec392b412e0eee5bd047fc79c54e528bcc5c9c78d74b8cc83",
+      "mode": "exact_ast_node"
+    },
+    {
+      "source": "nansen_digest/token_analysis.py",
+      "symbol": "_holders",
+      "source_lines": [
+        177,
+        190
+      ],
+      "sha256": "9c976a4bfeb6dc72fcd55140397d094a1b77887b548ac1f846ff0bf5a969ec46",
+      "mode": "exact_ast_node"
+    },
+    {
+      "output": "nansen_digest/token_analysis.py",
+      "sha256": "676734564cacb3182e0d45605fbadaa087a40260a028d2ca2f8a674b47b1df22",
+      "mode": "assembled_allowlist"
+    },
+    {
+      "source": "nansen_digest/history.py",
+      "symbol": "KST",
+      "source_lines": [
+        10,
+        10
+      ],
+      "sha256": "578378f1f04be40e34b194831b904016adcd7f5e314bef4bfbd1771cf1a227f0",
+      "mode": "exact_ast_node"
+    },
+    {
+      "source": "nansen_digest/history.py",
+      "symbol": "PERP_COHORT",
+      "source_lines": [
+        11,
+        11
+      ],
+      "sha256": "7a5dc868eb376501563eddcf109ebccfbf7370d18db7efc981d62446756d6e8f",
+      "mode": "exact_ast_node"
+    },
+    {
+      "source": "nansen_digest/history.py",
+      "symbol": "TOKEN_COHORT",
+      "source_lines": [
+        12,
+        12
+      ],
+      "sha256": "6e8b3e47deae9cdcc1992448443fdbd749312528a925cb78d66aeffbe10c8321",
+      "mode": "exact_ast_node"
+    },
+    {
+      "source": "nansen_digest/history.py",
+      "symbol": "_aware_datetime",
+      "source_lines": [
+        17,
+        24
+      ],
+      "sha256": "ed1c8cc14698eee3400b8d6f50999479dd96d10555fe683ad6e6d484986fb05a",
+      "mode": "exact_ast_node"
+    },
+    {
+      "source": "nansen_digest/history.py",
+      "symbol": "_regular_observation",
+      "source_lines": [
+        35,
+        37
+      ],
+      "sha256": "c8808ed80ab6236476102e25b78d13e7642331f5e37795aac6df42f3aafef13a",
+      "mode": "exact_ast_node"
+    },
+    {
+      "source": "nansen_digest/history.py",
+      "symbol": "_finite",
+      "source_lines": [
+        90,
+        97
+      ],
+      "sha256": "4db162b1cdb9901cd4f8e9340c1770f2ece9e5b5ce494500753e2406cce99ebc",
+      "mode": "exact_ast_node"
+    },
+    {
+      "source": "nansen_digest/history.py",
+      "symbol": "_comparable_observation",
+      "source_lines": [
+        100,
+        110
+      ],
+      "sha256": "f64320616657e6fdbe74de879b165df8b0085be1a174fd91dd14b2f93b672ae8",
+      "mode": "exact_ast_node"
+    },
+    {
+      "output": "nansen_digest/history.py",
+      "sha256": "b22c48b68d08e9d7e6c6416017289a0fbd2335091710bea76760e34bc52cc2ba",
+      "mode": "assembled_allowlist"
+    },
+    {
+      "source": "nansen_digest/ops.py",
+      "symbol": "MIN_LIQUIDITY",
+      "source_lines": [
+        26,
+        26
+      ],
+      "sha256": "a27d09356b3be63ed927085fe48cbb085e51092fc34dc5ac69a095f228ac146b",
+      "mode": "exact_ast_node"
+    },
+    {
+      "source": "nansen_digest/ops.py",
+      "symbol": "MIN_FLOW",
+      "source_lines": [
+        27,
+        27
+      ],
+      "sha256": "d34a54c78eb3875ca775aed75d001df2f3ae9f6f2c50723dcdc29b9476fa5001",
+      "mode": "exact_ast_node"
+    },
+    {
+      "output": "nansen_digest/ops.py",
+      "sha256": "5038ea7e80920f62fe112fb42b0eda85e5f430aa4b65e2c83ffdc9d89bd362ff",
+      "mode": "assembled_allowlist"
+    },
+    {
+      "source": "tests/test_nansen_research_token.py",
+      "output": "tests/test_nansen_research_token.py",
+      "sha256": "7a335c2086c54653fa96eba1d820878c7ad58b385f1a8d86600292e8c812a0db",
+      "mode": "exact_copy"
+    },
+    {
+      "source": "tests/test_nansen_research_korea.py",
+      "output": "tests/test_nansen_research_korea.py",
+      "sha256": "89ef16706702cfbf2dffbb6348b64c6cfad394ac405427cde3fc0d7178abd7fc",
+      "mode": "exact_copy"
+    },
+    {
+      "source": "tests/test_nansen_research_changes.py",
+      "output": "tests/test_nansen_research_changes.py",
+      "sha256": "d3d2daf8fc2ec5ca653af9fb98f657d9f68b99bd9ba669e0daedcc8464fb2081",
+      "mode": "exact_copy"
+    }
+  ]
+}

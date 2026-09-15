@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-09-15T13:47:07.195321+00:00",
+  "asset": {
+    "symbol": "JUP",
+    "chain": "solana",
+    "address": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+    "source": "https://discuss.jup.ag/t/faq-token-list-v3-verification/23074",
+    "market": "KRW-JUP"
+  },
+  "token": {
+    "schema_version": 1,
+    "chain": "solana",
+    "address": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+    "symbol": "JUP",
+    "observed_at": "2026-09-15T13:47:07.195321+00:00",
+    "timeframe": "1d",
+    "status": "observed",
+    "identity_verified": true,
+    "source_times": {
+      "flows": {
+        "fetched_at": "2026-09-15T13:47:07.195321+00:00",
+        "provider_at": null,
+        "time_basis": "request_time"
+      },
+      "holders": {
+        "fetched_at": "2026-09-15T13:47:07.195321+00:00",
+        "provider_at": null,
+        "time_basis": "request_time"
+      },
+      "market": {
+        "fetched_at": "2026-09-15T13:47:07.195321+00:00",
+        "provider_at": null,
+        "time_basis": "request_time"
+      }
+    },
+    "cohorts": {
+      "smart_trader": {
+        "net_flow_usd": -122.66026553237448,
+        "wallet_count": 7,
+        "wallet_count_status": "observed",
+        "window": "1d"
+      },
+      "whale": {
+        "net_flow_usd": 7082.840545898944,
+        "wallet_count": 6,
+        "wallet_count_status": "observed",
+        "window": "1d"
+      },
+      "exchange": {
+        "net_flow_usd": -128781.32056825506,
+        "wallet_count": null,
+        "wallet_count_status": "not_counted",
+        "window": "1d"
+      }
+    },
+    "market": {
+      "liquidity_usd": 3627949.623699789,
+      "volume_24h_usd": 4187634.69491956,
+      "total_supply": 6861487098.488606,
+      "top3_supply_share_pct": 52.55573483719121
+    },
+    "holders": [
+      {
+        "address": "EXJHiMkj6NRFDfhWBMKccHNwdSpCT7tdvQeRf87yHm6T",
+        "token_amount": 1700000000.10888,
+        "value_usd": 387906138.94465363
+      },
+      {
+        "address": "61aq585V8cR2sZBeawJFt2NPqmN7zDi1sws4KLs5xHXV",
+        "token_amount": 1682700001.58308,
+        "value_usd": 383958623.86732334
+      },
+      {
+        "address": "FVhQ3QHvXudWSdGix2sdcG47YmrmUxRhf3KCBmiKfekf",
+        "token_amount": 223404963.677797,
+        "value_usd": 50976562.86810264
+      }
+    ],
+    "errors": {},
+    "api_calls": 3,
+    "api_events": []
+  },
+  "changes": {
+    "schema_version": 1,
+    "status": "insufficient_data",
+    "kst_date": "2026-09-15",
+    "observed_at": null,
+    "reasons": [
+      "current_scheduled_observation_unavailable"
+    ],
+    "items": [],
+    "coverage": {
+      "lookback_days": 14,
+      "positioning_comparable": 0,
+      "memecoin_comparable": 0,
+      "baseline_dates": []
+    }
+  },
+  "korea": {
+    "schema_version": 1,
+    "status": "ok",
+    "reason": null,
+    "asset": {
+      "symbol": "JUP",
+      "chain": "solana",
+      "address": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+      "source": "https://discuss.jup.ag/t/faq-token-list-v3-verification/23074",
+      "market": "KRW-JUP"
+    },
+    "attention": {
+      "market": "KRW-JUP",
+      "symbol": "JUP",
+      "traded_value_24h_krw": 1654777727.9927573,
+      "price_change_since_utc_close_pct": -2.79503106,
+      "source_at": "2026-09-15T13:46:23.694000+00:00",
+      "warning": false,
+      "rank": 105,
+      "traded_value_share_pct": 0.0983248059480432
+    },
+    "onchain": {
+      "smart_trader": -122.66026553237448,
+      "whale": 7082.840545898944
+    },
+    "direction": "divergent",
+    "upbit_observed_at": "2026-09-15T13:46:23.694000+00:00",
+    "nansen_observed_at": "2026-09-15T13:47:07.195321+00:00",
+    "observed_count": 283,
+    "listed_count": 287
+  },
+  "api_events": [],
+  "api_attempts": 3,
+  "_demo": {
+    "fixture": false,
+    "kind": "manual_saved_snapshot",
+    "note": "Manually captured Nansen and Upbit observation. Not a scheduled publication or continuous live feed."
+  }
+}

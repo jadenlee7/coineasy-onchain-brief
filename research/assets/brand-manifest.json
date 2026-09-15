@@ -1,0 +1,41 @@
+{
+  "status": "reviewed_release_candidate",
+  "note": "CoinEasy brand assets and existing generated pixel-art scenes, reused without image modification. NORI is a CoinEasy concept character, not an official Nansen mascot. This manifest identifies the branded walkthrough, not a deployment receipt.",
+  "files": [
+    {
+      "path": "index.html",
+      "sha256": "6a95174148bf6aed3175475c61a77c1a78805aca1724c12e1d811217f6887f30",
+      "bytes": 33708
+    },
+    {
+      "path": "assets/coineasy-wordmark.png",
+      "sha256": "fc71b9cd603802eef0e4b4d1f68f9314c4b834ee68c75cb86e03366e1ca94631",
+      "bytes": 6402
+    },
+    {
+      "path": "assets/diver.png",
+      "sha256": "53c9e3e3d7167eac99438d4e78e59a1b05a58c7c7b507651e72ff8b009038020",
+      "bytes": 7039
+    },
+    {
+      "path": "assets/easyboy.png",
+      "sha256": "e71fd05c0374a246dbddd27ce620511a2dae6537ca83b55a4ba84473af5496cd",
+      "bytes": 13776
+    },
+    {
+      "path": "assets/nori.png",
+      "sha256": "850d920d853e97e8db758bded3cab17ba5c033c00e85d152b2ef0aea8b9a7877",
+      "bytes": 912515
+    },
+    {
+      "path": "assets/office.png",
+      "sha256": "448035dfcf7ec857e67f24139f17d87f7ca7c5e50976e20a4760ba484f2ab13e",
+      "bytes": 1612629
+    },
+    {
+      "path": "assets/underwater.png",
+      "sha256": "a772c516004000ce6c3a70a3980dfd75139cbc8b18181cd28700d95f3687907c",
+      "bytes": 1812512
+    }
+  ]
+}

@@ -1,8 +1,18 @@
+# New: CoinEasy Onchain Research
+
+Start with the [three-step research walkthrough](research/README.md): KRW trading attention → exact token address and distinct Nansen cohorts → changes supported by scheduled observations. It includes the three production research modules, 124 offline tests, and an explicit five-request live CLI.
+
+From the repository root, run `python3 -m http.server 8000 --bind 127.0.0.1`, then open **http://localhost:8000/research/**. No credentials are needed to inspect the saved actual observation or the separately labelled fictional example. See the research README for installing dependencies and using your own Nansen key.
+
+CoinEasy uses the workflow to explain onchain research to Korean communities. Existing public daily brief examples are linked below. New edition delivery and contest qualification require their own receipts; no audience, conversion or investment-performance claims are made.
+
+---
+
 # CoinEasy Onchain Brief
 
 Nansen research, explained for Korean communities. A runnable extraction of the data interpretation layer behind CoinEasy's daily brief: observation context, comparable history, token identity and honest missing-data handling.
 
-**This standalone demo extracts the research layer of the production workflow.** Default mode uses invented values and addresses. It makes zero Nansen API calls, requires no credentials, stores no user analytics and sends no posts. Real September 15 production links are presented separately as product evidence.
+**This legacy root demo extracts the research layer of the production workflow.** Its default mode uses invented values and addresses; the new research walkthrough uses the separately disclosed saved observation below. It makes zero Nansen API calls, requires no credentials, stores no user analytics and sends no posts. Real September 15 production links are presented separately as product evidence.
 
 ## Run in under 10 minutes
 
@@ -56,6 +66,6 @@ These demonstrate actual product output. They do not establish audience size, ac
 
 ## Source and license status
 
-See [PROVENANCE.md](PROVENANCE.md) for the exact extracted modules, their hashes and the boundaries of new demo code. No third-party assets, fonts or scripts are fetched by the viewer. The source is shared for inspection and reproducibility. No permissive open-source license is granted. Live API snapshots and account usage receipts are excluded from this repository.
+See [PROVENANCE.md](PROVENANCE.md) for the exact extracted modules, their hashes and the boundaries of new demo code. The viewers fetch no external assets, fonts or scripts. The research walkthrough bundles CoinEasy branding and existing generated pixel-art scenes locally, with Nansen attribution rendered as text. The source is shared for inspection and reproducibility. No permissive open-source license is granted. Private live outputs and account usage receipts are excluded. The sole reviewed saved observation is `research/demo-data.json`, a normalized manual JUP/Upbit snapshot from September 15, 2026, 22:47 KST. Its holder addresses and token metrics are public onchain data; it includes no account email, key or private receipt.
 
 The optional adapter was validated on September 15, 2026: three successful HTTP responses yielded four core positions and four verified tokens. This is a manual integration check, not proof of 1,000 qualifying calls. Competition eligibility and submission remain separate from this runnable project.

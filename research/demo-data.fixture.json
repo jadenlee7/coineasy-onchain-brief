@@ -1,0 +1,161 @@
+{
+  "_demo": {
+    "fixture": true,
+    "note": "All numerical values are fictional UI fixtures. Addresses identify real assets. No publication or API-use proof."
+  },
+  "schema_version": 1,
+  "observed_at": "2026-09-15T02:20:00+00:00",
+  "asset": {
+    "symbol": "JUP",
+    "chain": "solana",
+    "address": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+    "market": "KRW-JUP"
+  },
+  "token": {
+    "schema_version": 1,
+    "symbol": "JUP",
+    "chain": "solana",
+    "address": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+    "market": {
+      "liquidity_usd": 5200000,
+      "volume_24h_usd": 8300000,
+      "total_supply": 10000000000,
+      "top3_supply_share_pct": null
+    },
+    "observed_at": "2026-09-15T02:20:00+00:00",
+    "timeframe": "1d",
+    "status": "observed",
+    "identity_verified": true,
+    "source_times": {
+      "flows": {
+        "fetched_at": "2026-09-15T02:20:00+00:00",
+        "provider_at": null,
+        "time_basis": "request_time"
+      },
+      "holders": {
+        "fetched_at": "2026-09-15T02:20:00+00:00",
+        "provider_at": null,
+        "time_basis": "request_time"
+      },
+      "market": {
+        "fetched_at": "2026-09-15T02:20:00+00:00",
+        "provider_at": null,
+        "time_basis": "request_time"
+      }
+    },
+    "cohorts": {
+      "smart_trader": {
+        "net_flow_usd": 128000,
+        "wallet_count": 31,
+        "wallet_count_status": "observed",
+        "window": "1d"
+      },
+      "whale": {
+        "net_flow_usd": -47000,
+        "wallet_count": 8,
+        "wallet_count_status": "observed",
+        "window": "1d"
+      },
+      "exchange": {
+        "net_flow_usd": 22000,
+        "wallet_count": null,
+        "wallet_count_status": "not_counted",
+        "window": "1d"
+      }
+    },
+    "holders": [],
+    "errors": {},
+    "api_calls": 0,
+    "api_events": []
+  },
+  "korea": {
+    "schema_version": 1,
+    "status": "ok",
+    "reason": null,
+    "asset": {
+      "symbol": "JUP",
+      "chain": "solana",
+      "address": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+      "market": "KRW-JUP"
+    },
+    "attention": {
+      "market": "KRW-JUP",
+      "symbol": "JUP",
+      "traded_value_24h_krw": 18500000000,
+      "price_change_since_utc_close_pct": 2.4,
+      "source_at": "2026-09-15T02:20:00+00:00",
+      "warning": false,
+      "rank": 7,
+      "traded_value_share_pct": 2.4
+    },
+    "onchain": {
+      "smart_trader": 128000,
+      "whale": -47000
+    },
+    "direction": "divergent",
+    "upbit_observed_at": "2026-09-15T02:20:00+00:00",
+    "nansen_observed_at": "2026-09-15T02:20:00+00:00",
+    "observed_count": 195,
+    "listed_count": 197
+  },
+  "changes": {
+    "schema_version": 1,
+    "status": "observations",
+    "kst_date": "2026-09-15",
+    "observed_at": "2026-09-15T02:20:00+00:00",
+    "reasons": [
+      "exact_previous_day_unavailable_for_some_items"
+    ],
+    "coverage": {
+      "lookback_days": 14,
+      "positioning_comparable": 4,
+      "memecoin_comparable": 2,
+      "baseline_dates": [
+        "2026-09-11",
+        "2026-09-12",
+        "2026-09-14"
+      ]
+    },
+    "items": [
+      {
+        "token": "BTC",
+        "observed_at": "2026-09-15T02:20:00+00:00",
+        "baseline_dates": [
+          "2026-09-11",
+          "2026-09-12",
+          "2026-09-14"
+        ],
+        "baseline_days": 3,
+        "kind": "positioning_flip",
+        "stats": {
+          "previous_long_pct": 46,
+          "long_pct": 54,
+          "delta_pp": 8
+        }
+      },
+      {
+        "token": "WIF",
+        "chain": "solana",
+        "token_address": "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm",
+        "observed_at": "2026-09-15T02:20:00+00:00",
+        "baseline_dates": [
+          "2026-09-11",
+          "2026-09-12",
+          "2026-09-14"
+        ],
+        "baseline_days": 3,
+        "kind": "meme_inflow_spike",
+        "stats": {
+          "net_flow": 82000,
+          "baseline_median": 13000,
+          "threshold": 39000,
+          "liquidity": 780000,
+          "positive_observations": 4,
+          "total_observations": 4
+        }
+      }
+    ]
+  },
+  "api_events": [],
+  "api_attempts": 0
+}
