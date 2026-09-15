@@ -1,0 +1,691 @@
+{
+  "data_mode": "Synthetic demo fixture — not live Nansen data",
+  "scenarios": {
+    "comparable": {
+      "title": [
+        "같은 기준의 전일",
+        "Comparable prior day"
+      ],
+      "digest": {
+        "observed_at": "2026-09-15T02:05:00+00:00",
+        "observation_kind": "scheduled",
+        "token_mode": "verified_meme",
+        "perp_rows": [
+          {
+            "token": "BTC",
+            "long_pct": 62.0,
+            "long_pct_delta_pp": 2.0
+          },
+          {
+            "token": "ETH",
+            "long_pct": 47.0,
+            "long_pct_delta_pp": -1.0
+          },
+          {
+            "token": "SOL",
+            "long_pct": 55.0,
+            "long_pct_delta_pp": 0.0
+          },
+          {
+            "token": "HYPE",
+            "long_pct": 71.0,
+            "long_pct_delta_pp": 1.0
+          }
+        ],
+        "meme_rows": [
+          {
+            "token": "BTC",
+            "chain": "base",
+            "token_address": "0x1111111111111111111111111111111111111111",
+            "net_flow": 26000.0,
+            "liquidity": 210000.0,
+            "verified_meme": true,
+            "new_to_sample": false,
+            "observed_positive_streak": 7,
+            "short_address": "0x1111…1111"
+          },
+          {
+            "token": "LEAF",
+            "chain": "base",
+            "token_address": "0x2222222222222222222222222222222222222222",
+            "net_flow": 8100.0,
+            "liquidity": 150000.0,
+            "verified_meme": true,
+            "new_to_sample": false,
+            "observed_positive_streak": 7,
+            "short_address": "0x2222…2222"
+          }
+        ],
+        "perp_dynamic": [],
+        "section_errors": {},
+        "comparison_context": {
+          "positioning": "available",
+          "memecoin": "available"
+        }
+      },
+      "coverage": [
+        {
+          "day": "2026-09-09",
+          "positioning": "observed",
+          "memecoin": "observed"
+        },
+        {
+          "day": "2026-09-10",
+          "positioning": "observed",
+          "memecoin": "observed"
+        },
+        {
+          "day": "2026-09-11",
+          "positioning": "observed",
+          "memecoin": "observed"
+        },
+        {
+          "day": "2026-09-12",
+          "positioning": "observed",
+          "memecoin": "observed"
+        },
+        {
+          "day": "2026-09-13",
+          "positioning": "observed",
+          "memecoin": "observed"
+        },
+        {
+          "day": "2026-09-14",
+          "positioning": "observed",
+          "memecoin": "observed"
+        },
+        {
+          "day": "2026-09-15",
+          "positioning": "observed",
+          "memecoin": "observed"
+        }
+      ],
+      "labels": {
+        "ko": {
+          "observation": "수집: 09/15 11:05 KST · 정규 관측",
+          "positioning": "",
+          "memecoin": ""
+        },
+        "en": {
+          "observation": "Collected 09/15 11:05 KST.\nScheduled observation.",
+          "positioning": "",
+          "memecoin": ""
+        }
+      }
+    },
+    "missing": {
+      "title": [
+        "전일 관측 누락",
+        "Missing prior day"
+      ],
+      "digest": {
+        "observed_at": "2026-09-15T02:05:00+00:00",
+        "observation_kind": "scheduled",
+        "token_mode": "verified_meme",
+        "perp_rows": [
+          {
+            "token": "BTC",
+            "long_pct": 62.0,
+            "long_pct_delta_pp": null
+          },
+          {
+            "token": "ETH",
+            "long_pct": 47.0,
+            "long_pct_delta_pp": null
+          },
+          {
+            "token": "SOL",
+            "long_pct": 55.0,
+            "long_pct_delta_pp": null
+          },
+          {
+            "token": "HYPE",
+            "long_pct": 71.0,
+            "long_pct_delta_pp": null
+          }
+        ],
+        "meme_rows": [
+          {
+            "token": "BTC",
+            "chain": "base",
+            "token_address": "0x1111111111111111111111111111111111111111",
+            "net_flow": 26000.0,
+            "liquidity": 210000.0,
+            "verified_meme": true,
+            "new_to_sample": null,
+            "observed_positive_streak": 1,
+            "short_address": "0x1111…1111"
+          },
+          {
+            "token": "LEAF",
+            "chain": "base",
+            "token_address": "0x2222222222222222222222222222222222222222",
+            "net_flow": 8100.0,
+            "liquidity": 150000.0,
+            "verified_meme": true,
+            "new_to_sample": null,
+            "observed_positive_streak": 1,
+            "short_address": "0x2222…2222"
+          }
+        ],
+        "perp_dynamic": [],
+        "section_errors": {},
+        "comparison_context": {
+          "positioning": "no_previous_snapshot",
+          "memecoin": "no_previous_snapshot"
+        }
+      },
+      "coverage": [
+        {
+          "day": "2026-09-09",
+          "positioning": "observed",
+          "memecoin": "observed"
+        },
+        {
+          "day": "2026-09-10",
+          "positioning": "observed",
+          "memecoin": "observed"
+        },
+        {
+          "day": "2026-09-11",
+          "positioning": "observed",
+          "memecoin": "observed"
+        },
+        {
+          "day": "2026-09-12",
+          "positioning": "observed",
+          "memecoin": "observed"
+        },
+        {
+          "day": "2026-09-13",
+          "positioning": "observed",
+          "memecoin": "observed"
+        },
+        {
+          "day": "2026-09-14",
+          "positioning": "missing",
+          "memecoin": "missing"
+        },
+        {
+          "day": "2026-09-15",
+          "positioning": "observed",
+          "memecoin": "observed"
+        }
+      ],
+      "labels": {
+        "ko": {
+          "observation": "수집: 09/15 11:05 KST · 정규 관측",
+          "positioning": "전일 비교 불가: 전일 관측 없음",
+          "memecoin": "전일 비교 불가: 전일 관측 없음"
+        },
+        "en": {
+          "observation": "Collected 09/15 11:05 KST.\nScheduled observation.",
+          "positioning": "Prior-day comparison unavailable: no prior-day observation.",
+          "memecoin": "Prior-day comparison unavailable: no prior-day observation."
+        }
+      }
+    },
+    "cohort": {
+      "title": [
+        "조회 대상 변경",
+        "Changed cohort"
+      ],
+      "digest": {
+        "observed_at": "2026-09-15T02:05:00+00:00",
+        "observation_kind": "scheduled",
+        "token_mode": "verified_meme",
+        "perp_rows": [
+          {
+            "token": "BTC",
+            "long_pct": 62.0,
+            "long_pct_delta_pp": null
+          },
+          {
+            "token": "ETH",
+            "long_pct": 47.0,
+            "long_pct_delta_pp": null
+          },
+          {
+            "token": "SOL",
+            "long_pct": 55.0,
+            "long_pct_delta_pp": null
+          },
+          {
+            "token": "HYPE",
+            "long_pct": 71.0,
+            "long_pct_delta_pp": null
+          }
+        ],
+        "meme_rows": [
+          {
+            "token": "BTC",
+            "chain": "base",
+            "token_address": "0x1111111111111111111111111111111111111111",
+            "net_flow": 26000.0,
+            "liquidity": 210000.0,
+            "verified_meme": true,
+            "new_to_sample": null,
+            "observed_positive_streak": 1,
+            "short_address": "0x1111…1111"
+          },
+          {
+            "token": "LEAF",
+            "chain": "base",
+            "token_address": "0x2222222222222222222222222222222222222222",
+            "net_flow": 8100.0,
+            "liquidity": 150000.0,
+            "verified_meme": true,
+            "new_to_sample": null,
+            "observed_positive_streak": 1,
+            "short_address": "0x2222…2222"
+          }
+        ],
+        "perp_dynamic": [],
+        "section_errors": {},
+        "comparison_context": {
+          "positioning": "cohort_changed",
+          "memecoin": "cohort_changed"
+        }
+      },
+      "coverage": [
+        {
+          "day": "2026-09-09",
+          "positioning": "observed",
+          "memecoin": "observed"
+        },
+        {
+          "day": "2026-09-10",
+          "positioning": "observed",
+          "memecoin": "observed"
+        },
+        {
+          "day": "2026-09-11",
+          "positioning": "observed",
+          "memecoin": "observed"
+        },
+        {
+          "day": "2026-09-12",
+          "positioning": "observed",
+          "memecoin": "observed"
+        },
+        {
+          "day": "2026-09-13",
+          "positioning": "observed",
+          "memecoin": "observed"
+        },
+        {
+          "day": "2026-09-14",
+          "positioning": "cohort_changed",
+          "memecoin": "cohort_changed"
+        },
+        {
+          "day": "2026-09-15",
+          "positioning": "observed",
+          "memecoin": "observed"
+        }
+      ],
+      "labels": {
+        "ko": {
+          "observation": "수집: 09/15 11:05 KST · 정규 관측",
+          "positioning": "전일 비교 불가: 조회 대상 기준 변경",
+          "memecoin": "전일 비교 불가: 조회 대상 기준 변경"
+        },
+        "en": {
+          "observation": "Collected 09/15 11:05 KST.\nScheduled observation.",
+          "positioning": "Prior-day comparison unavailable: cohort changed.",
+          "memecoin": "Prior-day comparison unavailable: cohort changed."
+        }
+      }
+    },
+    "recovery": {
+      "title": [
+        "복구 점검",
+        "Recovery check"
+      ],
+      "digest": {
+        "observed_at": "2026-09-15T02:05:00+00:00",
+        "observation_kind": "recovery_probe",
+        "token_mode": "verified_meme",
+        "perp_rows": [
+          {
+            "token": "BTC",
+            "long_pct": 62.0,
+            "long_pct_delta_pp": null
+          },
+          {
+            "token": "ETH",
+            "long_pct": 47.0,
+            "long_pct_delta_pp": null
+          },
+          {
+            "token": "SOL",
+            "long_pct": 55.0,
+            "long_pct_delta_pp": null
+          },
+          {
+            "token": "HYPE",
+            "long_pct": 71.0,
+            "long_pct_delta_pp": null
+          }
+        ],
+        "meme_rows": [
+          {
+            "token": "BTC",
+            "chain": "base",
+            "token_address": "0x1111111111111111111111111111111111111111",
+            "net_flow": 26000.0,
+            "liquidity": 210000.0,
+            "verified_meme": true,
+            "new_to_sample": null,
+            "observed_positive_streak": null,
+            "short_address": "0x1111…1111"
+          },
+          {
+            "token": "LEAF",
+            "chain": "base",
+            "token_address": "0x2222222222222222222222222222222222222222",
+            "net_flow": 8100.0,
+            "liquidity": 150000.0,
+            "verified_meme": true,
+            "new_to_sample": null,
+            "observed_positive_streak": null,
+            "short_address": "0x2222…2222"
+          }
+        ],
+        "perp_dynamic": [],
+        "section_errors": {},
+        "comparison_context": {
+          "positioning": "non_scheduled_observation",
+          "memecoin": "non_scheduled_observation"
+        }
+      },
+      "coverage": [
+        {
+          "day": "2026-09-09",
+          "positioning": "observed",
+          "memecoin": "observed"
+        },
+        {
+          "day": "2026-09-10",
+          "positioning": "observed",
+          "memecoin": "observed"
+        },
+        {
+          "day": "2026-09-11",
+          "positioning": "observed",
+          "memecoin": "observed"
+        },
+        {
+          "day": "2026-09-12",
+          "positioning": "observed",
+          "memecoin": "observed"
+        },
+        {
+          "day": "2026-09-13",
+          "positioning": "observed",
+          "memecoin": "observed"
+        },
+        {
+          "day": "2026-09-14",
+          "positioning": "observed",
+          "memecoin": "observed"
+        },
+        {
+          "day": "2026-09-15",
+          "positioning": "non_scheduled",
+          "memecoin": "non_scheduled"
+        }
+      ],
+      "labels": {
+        "ko": {
+          "observation": "수집: 09/15 11:05 KST · 복구 점검 · 정규 관측 아님",
+          "positioning": "전일 비교 미제공: 정규 관측 아님",
+          "memecoin": "전일 비교 미제공: 정규 관측 아님"
+        },
+        "en": {
+          "observation": "Collected 09/15 11:05 KST.\nRecovery check, not a scheduled observation.",
+          "positioning": "Prior-day comparison unavailable: non-scheduled observation.",
+          "memecoin": "Prior-day comparison unavailable: non-scheduled observation."
+        }
+      }
+    },
+    "unknown": {
+      "title": [
+        "수집 시각 미확인",
+        "Unknown collection time"
+      ],
+      "digest": {
+        "observed_at": "not-a-timestamp",
+        "observation_kind": "unknown",
+        "token_mode": "verified_meme",
+        "perp_rows": [
+          {
+            "token": "BTC",
+            "long_pct": 62.0,
+            "long_pct_delta_pp": null
+          },
+          {
+            "token": "ETH",
+            "long_pct": 47.0,
+            "long_pct_delta_pp": null
+          },
+          {
+            "token": "SOL",
+            "long_pct": 55.0,
+            "long_pct_delta_pp": null
+          },
+          {
+            "token": "HYPE",
+            "long_pct": 71.0,
+            "long_pct_delta_pp": null
+          }
+        ],
+        "meme_rows": [
+          {
+            "token": "BTC",
+            "chain": "base",
+            "token_address": "0x1111111111111111111111111111111111111111",
+            "net_flow": 26000.0,
+            "liquidity": 210000.0,
+            "verified_meme": true,
+            "new_to_sample": null,
+            "observed_positive_streak": null,
+            "short_address": "0x1111…1111"
+          },
+          {
+            "token": "LEAF",
+            "chain": "base",
+            "token_address": "0x2222222222222222222222222222222222222222",
+            "net_flow": 8100.0,
+            "liquidity": 150000.0,
+            "verified_meme": true,
+            "new_to_sample": null,
+            "observed_positive_streak": null,
+            "short_address": "0x2222…2222"
+          }
+        ],
+        "perp_dynamic": [],
+        "section_errors": {},
+        "comparison_context": {
+          "positioning": "time_mismatch",
+          "memecoin": "time_mismatch"
+        }
+      },
+      "coverage": [
+        {
+          "day": "2026-09-09",
+          "positioning": "observed",
+          "memecoin": "observed"
+        },
+        {
+          "day": "2026-09-10",
+          "positioning": "observed",
+          "memecoin": "observed"
+        },
+        {
+          "day": "2026-09-11",
+          "positioning": "observed",
+          "memecoin": "observed"
+        },
+        {
+          "day": "2026-09-12",
+          "positioning": "observed",
+          "memecoin": "observed"
+        },
+        {
+          "day": "2026-09-13",
+          "positioning": "observed",
+          "memecoin": "observed"
+        },
+        {
+          "day": "2026-09-14",
+          "positioning": "observed",
+          "memecoin": "observed"
+        },
+        {
+          "day": "2026-09-15",
+          "positioning": "missing",
+          "memecoin": "missing"
+        }
+      ],
+      "labels": {
+        "ko": {
+          "observation": "수집 시각 미관측 · 관측 용도 미확인",
+          "positioning": "전일 비교 불가: 수집 시각 기준 미충족",
+          "memecoin": "전일 비교 불가: 수집 시각 기준 미충족"
+        },
+        "en": {
+          "observation": "Collection time unobserved.\nObservation purpose unconfirmed.",
+          "positioning": "Prior-day comparison unavailable: collection times not comparable.",
+          "memecoin": "Prior-day comparison unavailable: collection times not comparable."
+        }
+      }
+    },
+    "partial": {
+      "title": [
+        "유동성 미관측",
+        "Missing liquidity"
+      ],
+      "digest": {
+        "observed_at": "2026-09-15T02:05:00+00:00",
+        "observation_kind": "scheduled",
+        "token_mode": "candidate",
+        "perp_rows": [
+          {
+            "token": "BTC",
+            "long_pct": 62.0,
+            "long_pct_delta_pp": 2.0
+          },
+          {
+            "token": "ETH",
+            "long_pct": 47.0,
+            "long_pct_delta_pp": -1.0
+          },
+          {
+            "token": "SOL",
+            "long_pct": 55.0,
+            "long_pct_delta_pp": 0.0
+          },
+          {
+            "token": "HYPE",
+            "long_pct": 71.0,
+            "long_pct_delta_pp": 1.0
+          }
+        ],
+        "meme_rows": [
+          {
+            "token": "BTC",
+            "chain": "base",
+            "token_address": "0x1111111111111111111111111111111111111111",
+            "net_flow": 26000.0,
+            "liquidity": 210000.0,
+            "verified_meme": true,
+            "new_to_sample": null,
+            "observed_positive_streak": null,
+            "short_address": "0x1111…1111"
+          },
+          {
+            "token": "LEAF",
+            "chain": "base",
+            "token_address": "0x2222222222222222222222222222222222222222",
+            "net_flow": 8100.0,
+            "liquidity": null,
+            "verified_meme": false,
+            "new_to_sample": null,
+            "observed_positive_streak": null,
+            "short_address": "0x2222…2222"
+          }
+        ],
+        "perp_dynamic": [],
+        "section_errors": {},
+        "comparison_context": {
+          "positioning": "available",
+          "memecoin": "candidate_sample"
+        }
+      },
+      "coverage": [
+        {
+          "day": "2026-09-09",
+          "positioning": "observed",
+          "memecoin": "observed"
+        },
+        {
+          "day": "2026-09-10",
+          "positioning": "observed",
+          "memecoin": "observed"
+        },
+        {
+          "day": "2026-09-11",
+          "positioning": "observed",
+          "memecoin": "observed"
+        },
+        {
+          "day": "2026-09-12",
+          "positioning": "observed",
+          "memecoin": "observed"
+        },
+        {
+          "day": "2026-09-13",
+          "positioning": "observed",
+          "memecoin": "observed"
+        },
+        {
+          "day": "2026-09-14",
+          "positioning": "observed",
+          "memecoin": "observed"
+        },
+        {
+          "day": "2026-09-15",
+          "positioning": "observed",
+          "memecoin": "cohort_changed"
+        }
+      ],
+      "labels": {
+        "ko": {
+          "observation": "수집: 09/15 11:05 KST · 정규 관측",
+          "positioning": "",
+          "memecoin": "전일 비교 미제공: 투자 집단 미확인 후보 표본"
+        },
+        "en": {
+          "observation": "Collected 09/15 11:05 KST.\nScheduled observation.",
+          "positioning": "",
+          "memecoin": "Prior-day comparison unavailable: candidate cohort unconfirmed."
+        }
+      }
+    }
+  },
+  "proof": {
+    "description": "Separate real production posts, not the synthetic values above.",
+    "date": "2026-09-15",
+    "links": [
+      {
+        "label": "Positioning",
+        "url": "https://x.com/Coiniseasy/status/2099682118536417287"
+      },
+      {
+        "label": "Memecoin flows",
+        "url": "https://x.com/Coiniseasy/status/2099683376727023770"
+      }
+    ]
+  }
+}
